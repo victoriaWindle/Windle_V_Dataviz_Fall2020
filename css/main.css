@@ -1,11 +1,61 @@
 /* quick reset */
 
+
 *{
 	border: none;
 	padding: 0;
 	margin: 0;
 }
 
-body { font-size: 16px;  font-family: 'Arial', 'helvetica', sans-serif; }
+p
+{
+	text-align: center;
+	background-color: #ffcccb;
+	padding: 10px;
+}
 
-.hidden { display: none; }
+body 
+{ font-size: 16px;  font-family: 'Arial', 'helvetica', sans-serif; 
+ background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23e67272' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+img { 
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%; 
+}
+
+
+.hidden 
+{ 
+	display: none; 
+}
+
+
+.title
+{
+	width: 200px;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	background-color: #ffcccb;
+}
+
+.subhead
+{
+	text-align: center;
+	background-color: #ffcccb;
+}
+
+.foot
+{
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
